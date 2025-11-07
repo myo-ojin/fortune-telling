@@ -1,0 +1,17 @@
+# Web Framework
+Flask==3.0.0
+Flask-WTF==1.2.1
+
+# Database
+SQLAlchemy==2.0.23
+
+# Fortune Calculation Libraries
+pyswisseph==2.10.3.2
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Development & Testing
+pytest==7.4.3
+pytest-flask==1.3.0
