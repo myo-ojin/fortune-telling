@@ -4,6 +4,7 @@ Flask-WTF==1.2.1
 
 # Database
 SQLAlchemy==2.0.23
+Flask-SQLAlchemy==3.1.1
 
 # Fortune Calculation Libraries
 pyswisseph==2.10.3.2

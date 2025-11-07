@@ -19,6 +19,10 @@ def create_app(config_name='development'):
     # Load configuration
     app.config.from_object(config[config_name])
 
+    # Initialize database
+    from app.database import db
+    db.init_app(app)
+
     # Register blueprints
     from app.routes import main_bp
     app.register_blueprint(main_bp)
