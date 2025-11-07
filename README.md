@@ -47,7 +47,7 @@ python -c "import flask; import swisseph; print('Setup OK')"
 ### Phase 1a: MVP Core（進行中）
 - [x] T001: プロジェクト構造の作成
 - [x] T002: Python仮想環境のセットアップ
-- [ ] T003: Flaskアプリケーションの基本構成
+- [x] T003: Flaskアプリケーションの基本構成
 - [ ] T004-T019: 継続中...
 
 ## プロジェクト構造
