@@ -19,8 +19,8 @@ def create_app(config_name='development'):
     # Load configuration
     app.config.from_object(config[config_name])
 
-    # Register blueprints (will be added in T003)
-    # from app.routes import main_bp
-    # app.register_blueprint(main_bp)
+    # Register blueprints
+    from app.routes import main_bp
+    app.register_blueprint(main_bp)
 
     return app
